@@ -9,7 +9,10 @@
   <PropertyGroup>
     <PackageId>CoinMarketCapApi</PackageId>
     <Authors>Burak Öner</Authors>
-    <PackageVersion>1.0.2</PackageVersion>
+    <Version>2.1.0</Version>
+    <FileVersion>2.1.0.0</FileVersion>
+    <PackageVersion>2.1.0</PackageVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
     <Description>CoinMarketCap Public and Pro API for .Net</Description>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageTags>CoinMarketCap Coin Market Cap Crypto Currency Cryptocurrency API Wrapper</PackageTags>
@@ -17,13 +20,15 @@
     <PackageIcon>icon.jpg</PackageIcon>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReleaseNotes>1.0.2 - Second Release</PackageReleaseNotes>
+    <PackageReleaseNotes>
+      Version 2.1.0 - 31 Mar 2021
+      - Updated dependencies
+    </PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup>
     <DocumentationFile></DocumentationFile>
     <PackageIconUrl />
-    <Version>1.0.2</Version>
     <RepositoryUrl>https://github.com/burakoner/CoinMarketCapApi</RepositoryUrl>
     <PackageProjectUrl>https://github.com/burakoner/CoinMarketCapApi</PackageProjectUrl>
   </PropertyGroup>
@@ -35,7 +40,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>
