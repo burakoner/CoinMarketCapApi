@@ -15,5 +15,8 @@ namespace CoinMarketCap.Pro.Model
         public int Elapsed { get; set; }
         [JsonProperty("credit_count")]
         public int CreditCount { get; set; }
+        
+        [JsonProperty("notice")]
+        public string Notice { get; set; }
     }
 }
