@@ -28,5 +28,9 @@ namespace CoinMarketCap.Pro.Model.Cryptocurrency
         public string[] Tags { get; set; }
         [JsonProperty("urls")]
         public Dictionary<string,string[]> Urls { get; set; }
+        
+        [JsonProperty("twitter_username")]
+        public string TwitterUsername { get; set; }
+
     }
 }
